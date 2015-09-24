@@ -1,6 +1,7 @@
 [submodule "bundle/vim-sensible"]
 	path = bundle/vim-sensible
 	url = https://github.com/tpope/vim-sensible.git
+	ignore = dirty
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
 	url = https://github.com/hallison/vim-markdown.git
@@ -22,6 +23,7 @@
 [submodule "bundle/vim-autopep8"]
 	path = bundle/vim-autopep8
 	url = https://github.com/tell-k/vim-autopep8
+	ignore = dirty
 [submodule "bundle/taglist"]
 	path = bundle/taglist
 	url = https://github.com/emnh/taglist.vim
@@ -49,6 +51,9 @@
 [submodule "bundle/vim-expand-region"]
 	path = bundle/vim-expand-region
 	url = https://github.com/terryma/vim-expand-region
+	ignore = dirty
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized
+[submodule "bundle/taglist"]
+	ignore = dirty

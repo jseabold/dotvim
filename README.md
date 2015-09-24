@@ -23,7 +23,9 @@ Copy in your .vimrc from wherever. You'll need the pathogen specific stuff in it
     git submodule add https://github.com/scrooloose/syntastic bundle/syntastic
     git submodule add https://github.com/hynek/vim-python-pep8-indent.git bundle/vim-python-pep8-indent
     git submodule add https://github.com/tell-k/vim-autopep8 bundle/vim-autopep8
+    git config -f .gitmodules submodule.bundle/vim-autopep8.ignore dirty
     git submodule add https://github.com/emnh/taglist.vim bundle/taglist
+    git config -f .gitmodules submodule.bundle/taglist.ignore dirty
     git submodule add https://github.com/kchmck/vim-coffee-script bundle/vim-coffee-script
     git submodule add https://github.com/derekwyatt/vim-scala bundle/vim-scala
     git submodule add https://github.com/tpope/vim-rsi.git bundle/vim-rsi
@@ -32,6 +34,7 @@ Copy in your .vimrc from wherever. You'll need the pathogen specific stuff in it
     git submodule add https://github.com/tpope/vim-commentary.git bundle/vim-commentary
     git submodule add https://github.com/bling/vim-airline bundle/vim-airline
     git submodule add https://github.com/terryma/vim-expand-region bundle/vim-expand-region
+    git config -f .gitmodules submodule.bundle/vim-expand-region.ignore dirty
     git submodule add https://github.com/altercation/vim-colors-solarized bundle/vim-colors-solarized
 
 ## Packages not on git
