@@ -10,7 +10,7 @@ Install pathogen
 
 Copy in your .vimrc from wherever. You'll need the pathogen specific stuff in it. Best to put it at the top.
 
-    call pathogen#runtime_append_all_bundles()
+    call pathogen#inspect()
     call pathogen#helptags()
 
 # Add packages

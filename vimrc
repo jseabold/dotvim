@@ -1,3 +1,6 @@
+call pathogen#infect()
+call pathogen#helptags()
+
 colors koehler
 set shiftwidth=4
 set expandtab
@@ -47,8 +50,6 @@ if has('gui_running')
   set guioptions-=T  " no toolbar
   set noeb vb
 endif
-
-call pathogen#infect()
 
 " from http://stackoverflow.com/questions/14779299/syntax-highlighting-randomly-disappears-during-file-saving
 " fix highlighting by hitting F9 when it messes up
