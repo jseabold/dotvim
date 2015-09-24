@@ -32,10 +32,11 @@ Copy in your .vimrc from wherever. You'll need the pathogen specific stuff in it
     git submodule add https://github.com/tpope/vim-commentary.git bundle/vim-commentary
     git submodule add https://github.com/bling/vim-airline bundle/vim-airline
     git submodule add https://github.com/terryma/vim-expand-region bundle/vim-expand-region
+    git submodule add https://github.com/altercation/vim-colors-solarized bundle/vim-colors-solarized
 
 ## Packages not on git
 
-    bash bin/instal.sh
+    bash bin/install.sh
 
 # Initial setup on a new machine
 
