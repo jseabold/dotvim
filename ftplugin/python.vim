@@ -23,12 +23,6 @@ let Tlist_Exit_OnlyWindow = 1
 let Tlist_GainFocus_On_ToggleOpen = 1
 let Tlist_File_Fold_Auto_Close = 1
 
-" stuff for python tab-completion
-" see pydiction README
-filetype plugin on
-let g:pydiction_location = expand("~/.vim/bundle/pydiction/complete-dict")
-let g:pydiction_menu_height = 15
-
 " Execute file being edited with <F5>:
 map <buffer> <F5> :w<CR>:!/usr/bin/env python % <CR>
 
@@ -41,8 +35,5 @@ let g:gist_open_browser_after_post = 1
 autocmd BufWritePre * :%s/\s\+$//e
 " Make sure columnwidth takes into account line numbers used
 " let &columns = float2nr(log10(line("$"))) + 82
-
-" allow pythoncomplete to work
-set omnifunc=pythoncomplete#Complete
 
 set colorcolumn=80

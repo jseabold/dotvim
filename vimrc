@@ -1,6 +1,8 @@
 call pathogen#infect()
 call pathogen#helptags()
 
+let g:pymode_python = 'python3'
+
 colors koehler
 set shiftwidth=4
 set expandtab
@@ -188,3 +190,6 @@ nnoremap <silent> p p`]
 nnoremap <Leader>v :vsplit<CR>
 "split
 nnoremap <Leader>s :split<CR>
+
+" jedi-vim
+let g:jedi#popup_on_dot = 1
