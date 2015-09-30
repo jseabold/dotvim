@@ -44,9 +44,18 @@ Copy in your .vimrc from wherever. You'll need the pathogen specific stuff in it
 
 # Initial setup on a new machine
 
+
+    cd ~/
+    apt-get install exuberant-ctags ca-certificates unzip
+    export CURL_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt
     git clone http://github.com/jseabold/dotvim.git ~/.vim
     cd ~/.vim
+    mkdir autoload
+    curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+    git submodule init
+    bash bin/install.sh  # type :so % and :q to install the vba thing
     bash bin/link.sh
+
 
 # Installing plugins as submodules
 
