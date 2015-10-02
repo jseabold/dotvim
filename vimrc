@@ -87,7 +87,7 @@ let g:jedi#popup_on_dot = 0
 let g:jedi#show_call_signatures = 0
 
 " ii gets you out of edit and into normal mode
-imap ii <Esc>
+imap jk <Esc>
 
 " font stuff, desktop can handle smaller font
 let hostname = substitute(system('hostname'), '\n', '', '')
