@@ -66,3 +66,10 @@ Copy in your .vimrc from wherever. You'll need the pathogen specific stuff in it
 # Upgrading all plugin bundles
 
     git submodule foreach git pull origin master
+
+# Resources
+
+https://danielmiessler.com/study/vim/
+http://statico.github.io/vim.html
+http://statico.github.io/vim2.html
+
