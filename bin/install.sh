@@ -10,8 +10,12 @@ rm cvim.zip
 cd ~/.vim
 curl http://www.vim.org/scripts/download_script.php?src_id=19633 -o align.vba.gz 
 vim align.vba.gz
-:so %
-:q
+# in vim
+# :so %
+# :q
+# these mappings are annoying, so only keep them for sql files
+mv autoload/Align.vim ftplugin/sql_Align.vim
+mv autoload/AlignMaps.vim ftplugin/sql_AlignMaps.vim
 
 curl -o sqlutil.zip http://www.vim.org/scripts/download_script.php?src_id=19113
 unzip sqlutil.zip
