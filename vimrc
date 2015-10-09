@@ -77,9 +77,14 @@ endfunction
 map <Leader>w :call Browser()<CR>
 
 " syntastic
+
+let g:syntastic_check_on_open = 1
+
 " 203 whitespace before :
 let g:syntatsic_python_checkers = ['flake8']
 let g:syntastic_python_flake8_args = '--ignore="E203,E226,E121"'
+
+let g:syntastic_ruby_checkers = ['rubocop', 'mri', 'rubylint']
 
 " vim-jedi
 let g:jedi#use_splits_not_buffers = "left"
