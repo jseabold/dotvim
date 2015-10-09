@@ -37,6 +37,7 @@ Copy in your .vimrc from wherever. You'll need the pathogen specific stuff in it
     git config -f .gitmodules submodule.bundle/vim-expand-region.ignore dirty
     git submodule add https://github.com/altercation/vim-colors-solarized bundle/vim-colors-solarized
     git submodule add https://github.com/davidhalter/jedi-vim bundle/jedi-vim
+    git submodule add https://github.com/vim-ruby/vim-ruby bundle/vim-ruby
 
 ## Packages not on git
 
