@@ -38,6 +38,7 @@ Copy in your .vimrc from wherever. You'll need the pathogen specific stuff in it
     git submodule add https://github.com/altercation/vim-colors-solarized bundle/vim-colors-solarized
     git submodule add https://github.com/davidhalter/jedi-vim bundle/jedi-vim
     git submodule add https://github.com/vim-ruby/vim-ruby bundle/vim-ruby
+    git submodule add https://github.com/terryma/vim-multiple-cursors bundle/vim-multiple-cursors
 
 ## Packages not on git
 
@@ -73,4 +74,4 @@ Copy in your .vimrc from wherever. You'll need the pathogen specific stuff in it
 https://danielmiessler.com/study/vim/
 http://statico.github.io/vim.html
 http://statico.github.io/vim2.html
-
+http://dougblack.io/words/a-good-vimrc.html
