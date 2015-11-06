@@ -39,6 +39,7 @@ Copy in your .vimrc from wherever. You'll need the pathogen specific stuff in it
     git submodule add https://github.com/davidhalter/jedi-vim bundle/jedi-vim
     git submodule add https://github.com/vim-ruby/vim-ruby bundle/vim-ruby
     git submodule add https://github.com/terryma/vim-multiple-cursors bundle/vim-multiple-cursors
+    git submodule add https://github.com/sjl/tslime.vim bundle/tslime
 
 ## Packages not on git
 
