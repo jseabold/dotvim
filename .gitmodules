@@ -69,3 +69,9 @@
 [submodule "bundle/tslime"]
 	path = bundle/tslime
 	url = https://github.com/sjl/tslime.vim
+[submodule "bundle/vim-niji"]
+	path = bundle/vim-niji
+	url = https://github.com/losingkeys/vim-niji
+[submodule "bundle/paredit"]
+	path = bundle/paredit
+	url = https://github.com/vim-scripts/paredit.vim

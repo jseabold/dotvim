@@ -204,3 +204,8 @@ let g:tslime_ensure_trailing_newlines = 1
 let g:tslime_normal_mapping = '<localleader>t'
 let g:tslime_visual_mapping = '<localleader>t'
 let g:tslime_vars_mapping = '<localleader>T'
+
+" scheme support
+" http://crash.net.nz/posts/2014/08/configuring-vim-for-sicp/
+" http://ds26gte.github.io/scmindent/index.html
+autocmd filetype lisp,scheme,art setlocal equalprg=scmindent.rkt
