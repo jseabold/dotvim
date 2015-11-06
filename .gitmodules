@@ -66,3 +66,6 @@
 [submodule "bundle/vim-json"]
 	path = bundle/vim-json
 	url = https://github.com/elzr/vim-json
+[submodule "bundle/tslime"]
+	path = bundle/tslime
+	url = https://github.com/sjl/tslime.vim
