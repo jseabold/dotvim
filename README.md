@@ -72,7 +72,7 @@ Copy in your .vimrc from wherever. You'll need the pathogen specific stuff in it
 
 # Resources
 
-https://danielmiessler.com/study/vim/
-http://statico.github.io/vim.html
-http://statico.github.io/vim2.html
-http://dougblack.io/words/a-good-vimrc.html
+* https://danielmiessler.com/study/vim/
+* http://statico.github.io/vim.html
+* http://statico.github.io/vim2.html
+* http://dougblack.io/words/a-good-vimrc.html
