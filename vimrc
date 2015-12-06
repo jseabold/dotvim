@@ -198,9 +198,3 @@ nnoremap <Leader>s :split<CR>
 
 " jedi-vim
 let g:jedi#popup_on_dot = 1
-
-" tslime
-let g:tslime_ensure_trailing_newlines = 1
-let g:tslime_normal_mapping = '<localleader>t'
-let g:tslime_visual_mapping = '<localleader>t'
-let g:tslime_vars_mapping = '<localleader>T'
