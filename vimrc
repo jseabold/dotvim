@@ -198,3 +198,8 @@ nnoremap <Leader>s :split<CR>
 
 " jedi-vim
 let g:jedi#popup_on_dot = 1
+
+" vim-slime
+let g:slime_target = "tmux"
+let b:slime_default_config = {"socket_name": "default"}
+nmap <c-c><c-l> <Plug>SlimeLineSend
