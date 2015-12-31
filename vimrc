@@ -202,4 +202,6 @@ let g:jedi#popup_on_dot = 1
 " vim-slime
 let g:slime_target = "tmux"
 let b:slime_default_config = {"socket_name": "default"}
+let g:slime_python_ipython = 1
 nmap <c-c><c-l> <Plug>SlimeLineSend
+vmap <c-c><c-l> <Plug>SlimeRegionSend
