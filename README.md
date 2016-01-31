@@ -41,6 +41,7 @@ Copy in your .vimrc from wherever. You'll need the pathogen specific stuff in it
     git submodule add https://github.com/terryma/vim-multiple-cursors bundle/vim-multiple-cursors
     git submodule add git://github.com/jpalardy/vim-slime.git bundle/vim-slime
     git submodule add git://github.com/scrooloose/nerdtree.git bundle/nerdtree
+    git submodule add git://github.com/scrooloose/nerdcommenter.git bundle/nerdcommenter
 
 ## Packages not on git
 
