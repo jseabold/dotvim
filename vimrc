@@ -36,7 +36,7 @@ endif
 :map <leader>xc :%s/\n/, /g<CR>
 "Type Cc on a bunch of commits and it reverse them and turns them into
 "cherry-picks
-:map <leader>cc :%s/\(^\)\(.\{7}\)\(.*\)/git cherry-pick \2/<CR> :g/^/m0<CR>
+":map <leader>cc :%s/\(^\)\(.\{7}\)\(.*\)/git cherry-pick \2/<CR> :g/^/m0<CR>
 "xz truncates the line at the last space before or at 79 characters
 :map <leader>zx :s/\(^.\{,78\}\)\s/\1\r <CR>j
 
@@ -208,3 +208,6 @@ vmap <c-c><c-l> <Plug>SlimeRegionSend
 
 " nerdtree
 map <Leader>n :NERDTreeToggle<CR>
+
+" javascript
+autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
