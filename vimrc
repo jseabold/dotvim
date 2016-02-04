@@ -86,6 +86,8 @@ let g:syntastic_python_flake8_args = '--ignore="E203,E226,E121,E731"'
 
 let g:syntastic_ruby_checkers = ['rubocop', 'mri', 'rubylint']
 
+let g:syntastic_javascript_checkers = ['standard']
+
 " vim-jedi
 let g:jedi#use_splits_not_buffers = "left"
 let g:jedi#popup_on_dot = 0
