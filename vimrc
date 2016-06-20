@@ -216,3 +216,6 @@ autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
 
 " yaml
 au FileType yaml setlocal tabstop=2 expandtab shiftwidth=2 softtabstop=2
+
+" tagbar
+nmap <F8> :TagbarToggle<CR>
