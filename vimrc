@@ -219,3 +219,28 @@ au FileType yaml setlocal tabstop=2 expandtab shiftwidth=2 softtabstop=2
 
 " tagbar
 nmap <F8> :TagbarToggle<CR>
+
+" go-vim stuff
+" open target identifier in splits. default is gd for current buffer.
+au FileType go nmap <Leader>ds <Plug>(go-def-split)
+au FileType go nmap <Leader>dv <Plug>(go-def-vertical)
+" Open the relevant Godoc for the word under the cursor with <leader>gd or open it vertically with <leader>gv
+au FileType go nmap <Leader>gd <Plug>(go-doc)
+au FileType go nmap <Leader>gv <Plug>(go-doc-vertical)
+" Or open the Godoc in browser
+au FileType go nmap <Leader>gb <Plug>(go-doc-browser)
+
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_structs = 1
+let g:go_highlight_interfaces = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_build_constraints = 1
+
+
+" Sometimes when using both vim-go and syntastic Vim will start lagging while saving and opening files. The following fixes this:
+let g:syntastic_go_checkers = ['golint', 'govet', 'errcheck']
+let g:syntastic_mode_map = { 'mode': 'active', 'passive_filetypes': ['go'] }
+" Another issue with vim-go and syntastic is that the location list window that contains the output of commands such as :GoBuild and :GoTest might not appear. To resolve this:
+let g:go_list_type = "quickfix"
