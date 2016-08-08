@@ -45,6 +45,7 @@ Copy in your .vimrc from wherever. You'll need the pathogen specific stuff in it
     git submodule add git://github.com/ctrlpvim/ctrlp.vim bundle/ctrlp.vim
     git submodule add git://github.com/fatih/vim-go bundle/vim-go
     git submodule add git://github.com/majutsushi/tagbar bundle/tagbar
+    git submodule add git://github.com/Raimondi/delimitMate bundle/delimitMate
 
 
 ## Packages not on git
