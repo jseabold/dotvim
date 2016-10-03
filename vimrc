@@ -247,3 +247,6 @@ let g:go_list_type = "quickfix"
 
 " delimitMate
 au FileType python let b:delimitMate_expand_inside_quotes = 1
+
+set number
+set relativenumber
