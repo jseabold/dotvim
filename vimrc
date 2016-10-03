@@ -88,12 +88,7 @@ let g:syntastic_ruby_checkers = ['rubocop', 'mri', 'rubylint']
 
 let g:syntastic_javascript_checkers = ['standard']
 
-" vim-jedi
-let g:jedi#use_splits_not_buffers = "left"
-let g:jedi#popup_on_dot = 0
-let g:jedi#show_call_signatures = 0
-
-" ii gets you out of edit and into normal mode
+" gets you out of edit and into normal mode
 imap jk <Esc>
 
 " font stuff, desktop can handle smaller font
@@ -197,9 +192,6 @@ nnoremap <silent> p p`]
 nnoremap <Leader>v :vsplit<CR>
 "split
 nnoremap <Leader>s :split<CR>
-
-" jedi-vim
-let g:jedi#popup_on_dot = 1
 
 " vim-slime
 let g:slime_target = "tmux"
