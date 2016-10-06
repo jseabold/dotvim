@@ -86,7 +86,7 @@ let g:syntastic_python_flake8_args = '--ignore="E203,E226,E121,E731"'
 
 let g:syntastic_ruby_checkers = ['rubocop', 'mri', 'rubylint']
 
-let g:syntastic_javascript_checkers = ['standard']
+let g:syntastic_javascript_checkers = ['eslint']
 
 " gets you out of edit and into normal mode
 imap jk <Esc>
