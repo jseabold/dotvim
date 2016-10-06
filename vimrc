@@ -242,3 +242,5 @@ au FileType python let b:delimitMate_expand_inside_quotes = 1
 
 set number
 set relativenumber
+" https://github.com/fatih/vim-go/issues/145
+set synmaxcol=128
