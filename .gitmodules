@@ -90,3 +90,6 @@
 [submodule "bundle/syntastic-local-eslint"]
 	path = bundle/syntastic-local-eslint
 	url = https://github.com/mtscout6/syntastic-local-eslint.vim
+[submodule "bundle/vim-fixmyjs"]
+	path = bundle/vim-fixmyjs
+	url = https://github.com/ruanyl/vim-fixmyjs

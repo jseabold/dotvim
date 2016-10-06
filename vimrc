@@ -244,3 +244,7 @@ set number
 set relativenumber
 " https://github.com/fatih/vim-go/issues/145
 set synmaxcol=128
+
+" fixMyJS
+noremap <Leader><Leader>f :Fixmyjs<CR>
+let g:fixmyjs_use_local = 1
