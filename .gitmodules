@@ -93,3 +93,6 @@
 [submodule "bundle/vim-fixmyjs"]
 	path = bundle/vim-fixmyjs
 	url = https://github.com/ruanyl/vim-fixmyjs
+[submodule "bundle/vim-isort"]
+	path = bundle/vim-isort
+	url = https://github.com/fisadev/vim-isort
