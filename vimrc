@@ -177,6 +177,7 @@ set mouse=a
 " all hail the all powerful leader
 " fast save
 nnoremap <Leader>w :w<CR>
+nnoremap <Leader>q :q<CR>
 
 
 " key mappings for vim-expand-region
