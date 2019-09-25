@@ -249,3 +249,7 @@ set synmaxcol=128
 " fixMyJS
 noremap <Leader><Leader>f :Fixmyjs<CR>
 let g:fixmyjs_use_local = 1
+
+" <leader>-b -> buffers
+"
+:map <leader>b :buffers<CR>
