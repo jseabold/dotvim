@@ -88,6 +88,8 @@ let g:syntastic_ruby_checkers = ['rubocop', 'mri', 'rubylint']
 
 let g:syntastic_javascript_checkers = ['eslint']
 
+let g:syntastic_rst_checkers = ['sphinx']
+
 " gets you out of edit and into normal mode
 imap jk <Esc>
 
