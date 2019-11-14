@@ -3,7 +3,6 @@ call pathogen#helptags()
 
 let g:pymode_python = 'python3'
 
-colors koehler
 set shiftwidth=4
 set expandtab
 set tabstop=4
@@ -158,6 +157,8 @@ map <C-K> <C-W>k<C-W>_
 let g:sql_type_default = 'pgsql'
 syntax enable
 set background=dark
+let g:solarized_termtrans=1
+let g:solarized_termcolors=&t_Co
 colorscheme solarized
 
 " delete to null register
