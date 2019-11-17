@@ -92,16 +92,6 @@ let g:syntastic_rst_checkers = ['sphinx']
 " gets you out of edit and into normal mode
 imap jk <Esc>
 
-" font stuff, desktop can handle smaller font
-let hostname = substitute(system('hostname'), '\n', '', '')
-if hostname == "skipper-desktop"
-    if has("gui_running")
-    if has("gui_gtk2")
-        set guifont=Monospace\ 9
-    endif
-    endif
-endif
-
 " better indents for HTML
 au BufNewFile,BufRead *.mustache setlocal ft=html
 autocmd FileType html setlocal shiftwidth=2 tabstop=2
@@ -129,6 +119,7 @@ if has("unix")
     else
         let g:netrw_browsex_viewer = "xdg-open"
         " copy-paste to system clipboard
+        " does echo has('clipboard') return 1?
         vmap <Leader>y "+y
         vmap <Leader>d "+d
         nmap <Leader>p "+p
