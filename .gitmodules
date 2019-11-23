@@ -65,7 +65,7 @@
 	url = https://github.com/elzr/vim-json
 [submodule "bundle/vim-slime"]
 	path = bundle/vim-slime
-	url = git://github.com/jpalardy/vim-slime.git
+	url = https://github.com/jpalardy/vim-slime.git
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree
@@ -74,7 +74,7 @@
 	url = https://github.com/ctrlpvim/ctrlp.vim
 [submodule "bundle/vim-go"]
 	path = bundle/vim-go
-	url = git://github.com/fatih/vim-go
+	url = https://github.com/fatih/vim-go
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = https://github.com/majutsushi/tagbar
@@ -83,10 +83,10 @@
 	url = https://github.com/Raimondi/delimitMate
 [submodule "bundle/vim-javascript"]
 	path = bundle/vim-javascript
-	url = git://github.com/pangloss/vim-javascript
+	url = https://github.com/pangloss/vim-javascript
 [submodule "bundle/vim-jsx"]
 	path = bundle/vim-jsx
-	url = git://github.com/mxw/vim-jsx
+	url = https://github.com/mxw/vim-jsx
 [submodule "bundle/syntastic-local-eslint"]
 	path = bundle/syntastic-local-eslint
 	url = https://github.com/mtscout6/syntastic-local-eslint.vim
