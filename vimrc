@@ -1,3 +1,4 @@
+set pythonthreedll=~/.miniconda3/lib/libpython3.7m.dylib
 call pathogen#infect()
 call pathogen#helptags()
 
@@ -247,3 +248,7 @@ let g:fixmyjs_use_local = 1
 " <leader>-b -> buffers
 "
 :map <leader>b :buffers<CR>
+
+" black
+let g:black_linelength=79
+let g:black_skip_string_normalization=1
