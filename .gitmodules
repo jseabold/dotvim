@@ -99,3 +99,6 @@
 [submodule "bundle/black"]
 	path = bundle/black
 	url = https://github.com/psf/black
+[submodule "bundle/vim-arduino"]
+	path = bundle/vim-arduino
+	url = https://github.com/stevearc/vim-arduino
