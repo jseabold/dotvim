@@ -33,3 +33,7 @@ let g:gist_open_browser_after_post = 1
 " let &columns = float2nr(log10(line("$"))) + 82
 
 set colorcolumn=80
+
+" black
+let g:black_linelength=79
+let g:black_skip_string_normalization=1

@@ -249,9 +249,5 @@ let g:fixmyjs_use_local = 1
 "
 :map <leader>b :buffers<CR>
 
-" black
-let g:black_linelength=79
-let g:black_skip_string_normalization=1
-
 " Remove trailing whitespace
 autocmd BufWritePre * :%s/\s\+$//e
