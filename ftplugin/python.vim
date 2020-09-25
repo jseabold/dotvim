@@ -29,8 +29,6 @@ map <buffer> <F5> :w<CR>:!/usr/bin/env python % <CR>
 let g:gist_detect_filetype = 1
 let g:gist_open_browser_after_post = 1
 
-" Remove trailing whitespace
-autocmd BufWritePre * :%s/\s\+$//e
 " Make sure columnwidth takes into account line numbers used
 " let &columns = float2nr(log10(line("$"))) + 82
 
