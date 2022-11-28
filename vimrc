@@ -82,7 +82,7 @@ let g:syntastic_check_on_open = 1
 
 " 203 whitespace before :
 let g:syntatsic_python_checkers = ['flake8']
-let g:syntastic_python_flake8_args = '--ignore="E203,E226,E121,E731"'
+let g:syntastic_python_flake8_args = '--ignore=E203,E226,E121,E731,W503'
 
 let g:syntastic_ruby_checkers = ['rubocop', 'mri', 'rubylint']
 
