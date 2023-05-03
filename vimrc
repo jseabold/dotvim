@@ -257,3 +257,5 @@ if &diff
     " diff mode
     set diffopt+=iwhite
 endif
+
+let g:SimpylFold.fold_import = 0
