@@ -251,3 +251,9 @@ let g:fixmyjs_use_local = 1
 
 " Remove trailing whitespace
 autocmd BufWritePre * :%s/\s\+$//e
+
+" ignore whitespace in vimdiff
+if &diff
+    " diff mode
+    set diffopt+=iwhite
+endif
