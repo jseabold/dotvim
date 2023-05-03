@@ -102,3 +102,9 @@
 [submodule "bundle/vim-arduino"]
 	path = bundle/vim-arduino
 	url = https://github.com/stevearc/vim-arduino
+[submodule "bundle/SimpylFold"]
+	path = bundle/SimpylFold
+	url = https://github.com/tmhedberg/SimpylFold
+[submodule "bundle/FastFold"]
+	path = bundle/FastFold
+	url = https://github.com/Konfekt/FastFold
