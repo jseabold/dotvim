@@ -102,6 +102,9 @@ autocmd FileType html setlocal shiftwidth=2 tabstop=2
 au BufNewFile,BufRead *.pyx setlocal ft=python
 au BufNewFile,BufRead *.pxi setlocal ft=python
 
+au BufNewFile,BufRead *.py setlocal foldlevel=1
+au BufNewFile,BufRead *.py setlocal foldmethod=indent
+
 " cvim
 let g:C_UseTool_cmake = 'yes'
 
