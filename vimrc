@@ -258,4 +258,4 @@ if &diff
     set diffopt+=iwhite
 endif
 
-let g:SimpylFold.fold_import = 0
+let g:SimpylFold_fold_import = 0
