@@ -37,3 +37,11 @@ set colorcolumn=80
 " black
 let g:black_linelength=79
 let g:black_skip_string_normalization=1
+
+let b:ale_fixers = ['black', 'isort']
+let b:ale_fix_on_save = 0
+" use this to only fix on save for a subset
+" let filepath = expand('%:p:h')
+" if match(filepath, '') != -1
+"     let b:ale_fix_on_save = 1
+" endif
