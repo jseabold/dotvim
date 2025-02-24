@@ -108,3 +108,6 @@
 [submodule "bundle/FastFold"]
 	path = bundle/FastFold
 	url = https://github.com/Konfekt/FastFold
+[submodule "bundle/copilot"]
+	path = bundle/copilot
+	url = https://github.com/github/copilot.vim
